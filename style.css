@@ -1,0 +1,78 @@
+body {
+  background-color: rgb(83, 83, 83);
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*HEADER START */
+
+#logomain img {
+  width: 40px;
+  height: auto;
+  border: 2px solid gold;
+  border-radius: 50%;
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 16px;
+}
+
+#navbar {
+  border-bottom: 2px solid white;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: gold;
+}
+
+a:hover {
+  color: white;
+}
+
+/*HEADER END */
+
+/*CONTENT START*/
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button.kontakt {
+  background-color: gold;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.containerimg img {
+  width: 400px;
+  height: auto;
+  border: 3px solid gold;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.container h1 {
+  color: white;
+  font-weight: 700;
+}
+
+.container .text {
+  color: rgb(146, 146, 146);
+}
